@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import CSGOdrop from '../../assets/images/CSGOdrop1.png';
+import CSGOdrop from '../../assets/images/csgodrop.png';
 import { ReactComponent as Roulette } from '../../assets/images/roulette.svg';
 import { ReactComponent as PVP } from '../../assets/images/pvp.svg';
 import { ReactComponent as Unboxing } from '../../assets/images/unboxing.svg';
@@ -52,13 +52,13 @@ const Navbar = () => {
       </div>
       <div className="rightsidenav">
         <button className="auth register">
-          Register
+          REGISTER
         </button>
         <button className="auth login">
           <cw-icon className="steamicon">
-            <Steam fill="white"/>
+            <Steam fill="#FFFFFF"/>
           </cw-icon>
-          Login
+          LOGIN
         </button>
       </div>
     </nav>

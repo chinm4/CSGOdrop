@@ -81,10 +81,18 @@ body {
 
 .register {
   color: white;
+  background-color: #48b46c;
+}
+
+.register:hover {
   background-color: #50C878;
 }
 
 .login {
   color: #8e8e99
+}
+
+.login:hover {
+  background-color: #e0e0e0;
 }
 
