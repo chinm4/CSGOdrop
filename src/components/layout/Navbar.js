@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import CSGOdrop from '../../assets/images/CSGOdrop.png';
+import CSGOdrop from '../../assets/images/CSGOdrop1.png';
 import { ReactComponent as Roulette } from '../../assets/images/roulette.svg';
 import { ReactComponent as PVP } from '../../assets/images/pvp.svg';
 import { ReactComponent as Unboxing } from '../../assets/images/unboxing.svg';
