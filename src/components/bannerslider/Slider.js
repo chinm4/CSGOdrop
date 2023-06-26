@@ -33,6 +33,7 @@ const Slider = () => {
   useEffect(() => {
     if (autoScroll === true)
       auto();
+    return () => clearInterval(slideInterval);
   }, [currBanner]);
 
   return (
