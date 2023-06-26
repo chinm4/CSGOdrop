@@ -14,39 +14,39 @@ const Navbar = () => {
   return (
     <nav class="navbar-header" className="nav">
       <div className="leftsidenav">
-        <a href="/" className="link-logo"><img src={CSGOdrop} className="logo" alt="CSGOdrop"></img></a>
+        <Link className="link-logo" to="/"><img src={CSGOdrop} className="logo" alt="CSGOdrop"></img></Link>
         <ul className="nav-games">
           <li className="game">
-            <a href="/roulette" className="navlink">
+            <Link className="navlink" to="/roulette">
               <cw-icon className="nav-icon">
-                <Roulette fill="8e8e99"/> 
+                <Roulette /> 
               </cw-icon>
               <span className="name">ROULETTE</span>
-            </a>
+            </Link>
           </li>
           <li className="game">
-            <a href="/unboxing" className="navlink">
+            <Link className="navlink" to="/unboxing">
               <cw-icon className="nav-icon">
-                <Unboxing fill="8e8e99"/>
+                <Unboxing />
               </cw-icon>
               <span className="name">UNBOXING</span>
-            </a>
+            </Link>
           </li>
           <li className="game">
-            <a href="/pvp" className="navlink">
+            <Link className="navlink" to="/pvp">
               <cw-icon className="nav-icon">
-                <PVP fill="8e8e99"/> 
+                <PVP /> 
               </cw-icon>
               <span className="name">PVP</span>
-            </a>
+            </Link>
           </li>
           <li className="game">
-            <a href="/crash" className="navlink">
+            <Link className="navlink" to="/crash">
               <cw-icon className="nav-icon">
-                <Crash fill="8e8e99"/> 
+                <Crash /> 
               </cw-icon>
               <span className="name">CRASH</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

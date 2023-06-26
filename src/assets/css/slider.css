@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.slider-container {
+  width: 100%;
+  height: 42vh;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 600px) {
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 0.5s ease;
+}
+
+.current {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.arrow {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  opacity: 0.6;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem; 
+  cursor: pointer;
+  position: absolute;
+  z-index: 999;
+}
+
+.arrow:hover {
+  color: #8e8e99;
+  border-color: #8e8e99;
+}
+
+.arrow-left {
+  top: 42%;
+  left : 2%
+}
+
+.arrow-right {
+  top: 42%;
+  right: 2%
+}

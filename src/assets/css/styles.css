@@ -10,6 +10,7 @@
 }
 
 body {
+  background-color: rgb(80, 33, 39);
   margin: 0;
 }
 
@@ -18,12 +19,12 @@ body {
   font-weight: bold;
   width: 100%;
   height: 3.75rem;
-  background-color: white;
+  background-color: inherit;
   color: grey;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #f0f0f2;
+  border-bottom: 1px solid rgb(71, 29, 35);
 }
 
 .link-logo {
@@ -52,15 +53,17 @@ body {
   display: block;
   padding: 0.5rem 1rem;
   color: #8e8e99;
+  fill: #8e8e99;
   text-decoration: none;
 }
 
 .navlink:hover {
-  color: #FFD700;
-  fill: #FFD700
+  color: #f4e59f;
+  fill: #f4e59f;
 }
 
 .name {
+  font-size: 16px;
   padding-left: 0.5rem;
 }
 
@@ -80,6 +83,7 @@ body {
 } 
 
 .register {
+  border: 1px solid transparent;
   color: white;
   background-color: #48b46c;
 }
@@ -89,10 +93,15 @@ body {
 }
 
 .login {
-  color: #8e8e99
+  border: 1px solid white;
+  color: white;
+  background-color: #8e8e9900;
 }
 
 .login:hover {
-  background-color: #e0e0e0;
+  background-color: #632930;
 }
 
+.steamicon {
+  background-color: #8e8e99;
+}

@@ -3,9 +3,7 @@ import { Switch, Navigate } from 'react-router-dom';
 
 const Routes = () => {
   <Fragment>
-    <Switch>
-
-    </Switch>
+    
   </Fragment>
 }
 
