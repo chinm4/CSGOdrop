@@ -30,6 +30,10 @@ const Slider = () => {
   }
 
   useEffect(() => {
+    setPrevBanner(0);
+  }, []);
+
+  useEffect(() => {
     setCurrBanner(0);
   }, []);
 
