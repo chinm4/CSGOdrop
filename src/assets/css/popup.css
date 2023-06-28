@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  opacity: 1;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.popup-inner {
+  background-color: rgb(80, 33, 39);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease-in;
+  padding: 56px 24px 32px;
+  border-radius: 5px;
+  border: 6px solid #722F37; 
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  width: 25%;
+  height: 75%;
+}
+
+.login-title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.steam-container {
+  border-bottom: 1px solid #722F37;
+  padding: 10px 0px 40px ;
+}
+
+.steam-api-button {
+  fill: white;
+  color: white;
+  background-color: #4e4e4e;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  
+}
+
+.popup-inner label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup-inner input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  background-color: #722F37;
+}
+
+.email-input {
+  padding-top: 24px;
+}
