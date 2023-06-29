@@ -41,7 +41,7 @@ const Slider = () => {
     if (autoScroll === true)
       auto();
     return () => clearInterval(slideInterval);
-  }, [currBanner]);
+  });
 
   return (
     <div className="slider-container">
