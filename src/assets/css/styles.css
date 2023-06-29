@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: rgb(80, 33, 39);
+  background-color: rgb(92, 38, 45);
   margin: 0;
 }
 
@@ -19,7 +19,7 @@ body {
   font-weight: bold;
   width: 100%;
   height: 3.75rem;
-  background-color: inherit;
+  background-color: rgb(80, 33, 39);
   color: grey;
   display: flex;
   align-items: center;
