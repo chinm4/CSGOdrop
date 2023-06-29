@@ -12,7 +12,6 @@ import { ReactComponent as Crash } from '../../assets/images/crash.svg';
 import { ReactComponent as Steam } from '../../assets/images/steam.svg';
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
   const [toggleLogin, setToggleLogin] = useState(false);
   const [toggleRegister, setToggleRegister] = useState(false);
 

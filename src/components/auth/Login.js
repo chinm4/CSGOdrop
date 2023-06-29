@@ -8,7 +8,6 @@ const Login = (props) => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [goBack, setGoBack] = useState(false);
 
   const handleLogin = (e) => {
     e.preventDefault()
@@ -19,7 +18,6 @@ const Login = (props) => {
   useEffect(() => {
     setEmail('');
     setPassword('');
-    setGoBack(false);
   }, [])
 
   return (
@@ -37,11 +35,11 @@ const Login = (props) => {
         <form onSubmit={handleLogin} className="login-form">
           <label className="email-input">
             Email*
-            <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Enter your Email Address'/>
           </label>
           <label className="password-input">
             Password*
-            <input type="text" value={password} onChange={(e) => setPassword(e.target.value)} />
+            <input type="text" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Enter your Password'/>
           </label>
           <button type="submit">SUBMIT</button>
         </form>

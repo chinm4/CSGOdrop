@@ -59,6 +59,7 @@
 }
 
 .popup-inner input {
+  color: white;
   width: 100%;
   padding: 5px;
   border-radius: 5px;
@@ -69,4 +70,19 @@
 
 .email-input {
   padding-top: 24px;
+}
+
+.popup-inner button[type="submit"],
+.popup-inner button[type="button"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
